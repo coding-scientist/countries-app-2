@@ -1,0 +1,7 @@
+@use '../helpers/mixins';
+@use '../helpers/variables';
+
+.country {
+	@include mixins.flexbox();
+	background-color: variables.$Dark-Gray;
+}
